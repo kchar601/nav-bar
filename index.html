@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <script src="./index.js" type="module"></script>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .dark{
+      background-color: #161616;
+    }
+
+    .nav-Offset{
+      height: 100vh;
+      margin-left:196px;
+    }
+
+  </style>
+  <title>nav-bar</title>
+</head>
+
+<body>
+  <nav-bar logo="./assets/headshot1.jpg" header="Keith's Website" 
+  images='["./assets/github-mark-white.png", "./assets/linkedin-transparent.png", "./assets/port_icon.png"] '
+  imageStyles='["", "", "wide"]'
+  links='["https://www.github.com/kchar601", "https://www.linkedin.com/in/keith-charlton-jr/", ""]'
+  navButtons="['Home', 'Resume', 'Projects','About', 'Contact']" darkTheme='["black", "#212529", "white"]' lightTheme='["lightgrey", "#f8f9fa", "black"]'
+  dark>
+</nav-bar>
+  <div class="nav-Offset">Some sample text</div>
+  
+
+  <script type="module" src="./src/nav-bar.js"></script>
+</body>
+
+</html>
