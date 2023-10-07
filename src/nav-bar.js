@@ -214,7 +214,7 @@ class NavBar extends LitElement {
 
     return html`
     <div class="wrapper">
-      <img src="${this.logo}" class="main-img" alt="Headshot">
+      <img src="${this.logo}" class="main-img">
       <h1>${this.header}</h1>
       <section class="img-Section">
       ${this.__createLinks(this.links, this.images, this.imageStyles)}

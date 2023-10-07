@@ -1,5 +1,5 @@
 {
-  "name": "nav-bar",
+  "name": "@kchar601/nav-bar",
   "description": "Webcomponent nav-bar following open-wc recommendations",
   "license": "MIT",
   "author": "nav-bar",
@@ -30,5 +30,14 @@
     "rollup-plugin-esbuild": "^5.0.0",
     "rollup-plugin-workbox": "^6.2.0"
   },
-  "customElements": "custom-elements.json"
+  "customElements": "custom-elements.json",
+  "main": "nav-bar.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kchar601/nav-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kchar601/nav-bar/issues"
+  },
+  "homepage": "https://github.com/kchar601/nav-bar#readme"
 }
